@@ -34,4 +34,7 @@ public class SearcherDubler implements SequenceSearcher {
                 .withFound(false)
                 .build();
     }
+    public int getCounter() {
+        return counterOfSearchUse;
+    }
 }
